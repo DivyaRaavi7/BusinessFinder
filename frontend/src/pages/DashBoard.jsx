@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-const Dashboard = () => {
+const DashBoard = () => {
     const [businesses, setBusinesses] = useState([]);
 
     useEffect(() => {
@@ -187,4 +187,4 @@ const styles = {
     },
 };
 
-export default Dashboard;
+export default DashBoard;
