@@ -2,7 +2,7 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import ServicesPage from "./pages/ServicesPage";
 import AddBusiness from "./pages/AddBusiness";
-import Dashboard from "./pages/DashBoard"; // ✅ Import Dashboard
+import Dashboard from "./pages/Dashboard"; // ✅ Import Dashboard
 import BusinessDetails from "./pages/BusinessDetails"; // ✅ Import Business Details Page
 import Login from "./pages/Login";
 import Register from "./pages/Register";
