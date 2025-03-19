@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001/api'; // Adjust this if your backend runs on a different port
+const API_URL = 'https://businessfinder-m6cy.onrender.com/api'; // Adjust this if your backend runs on a different port
 
 // Add Business
 export const addBusiness = async (businessData, token) => {

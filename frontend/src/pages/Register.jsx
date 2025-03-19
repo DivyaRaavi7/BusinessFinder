@@ -9,7 +9,7 @@ const Register = () => {
     const handleRegister = async (formData) => {
         try {
             const response = await axios.post(
-                "http://localhost:5001/api/auth/register",
+                "https://businessfinder-m6cy.onrender.com/api/auth/register",
                 formData
             );
 

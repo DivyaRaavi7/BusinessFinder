@@ -16,7 +16,7 @@ const Dashboard = () => {
             console.log("✅ Auth Token Found:", token);
 
             try {
-                const response = await axios.get("http://localhost:5001/api/business/mybusiness", {
+                const response = await axios.get("https://businessfinder-m6cy.onrender.com/api/business/mybusiness", {
                     headers: { Authorization: `Bearer ${token}` }, 
                 });
 
@@ -40,7 +40,7 @@ const Dashboard = () => {
             }
 
             try {
-                await axios.delete(`http://localhost:5001/api/business/${businessId}`, {
+                await axios.delete(`https://businessfinder-m6cy.onrender.com/api/business/${businessId}`, {
                     headers: { Authorization: `Bearer ${token}` }, 
                 });
 

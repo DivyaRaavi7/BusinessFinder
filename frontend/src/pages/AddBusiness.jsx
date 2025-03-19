@@ -57,7 +57,7 @@ const AddBusiness = () => {
                 formDataToSend.append("image", formData.image);
             }
 
-            const response = await axios.post("http://localhost:5001/api/business", formDataToSend, {
+            const response = await axios.post("https://businessfinder-m6cy.onrender.com/api/business", formDataToSend, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                     "Content-Type": "multipart/form-data",

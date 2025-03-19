@@ -32,7 +32,7 @@ const ServicesPage = () => {
         console.log("🔹 Fetching businesses for:", selectedService, "in", location);
 
         try {
-            const response = await fetch(`http://localhost:5001/api/business/search?category=${selectedService}&location=${location}`);
+            const response = await fetch(`https://businessfinder-m6cy.onrender.com/api/business/search?category=${selectedService}&location=${location}`);
 
             console.log("🔹 Response status:", response.status);
 
